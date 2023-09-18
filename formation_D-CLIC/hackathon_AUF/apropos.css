@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url(apropos2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    
+    
+}
+.container h1,p:first-child{
+    color: #fff;
+}
+.container h1{
+    font-size: 30px;
+}
+.container p{
+    font-size: 18px;
+    
+}
+ p{
+    font-size: 18px;
+    color:black;
+}
+ 
+.presentation{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 185px;;
+}
+.description{
+    font-size: 20px;
+    color:#fff;
+}
+.formation {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.for img {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    padding: 3px;
+    border-radius: 30px;
+}
+.for {
+     
+    height: 300px;
+    width: 300px;
+    
+}
+
+.for p{
+    font-size: 25px;
+    color: indigo; 
+}
+.for:hover img{
+    transform: scale(1.05);
+}
+@media screen and (max-width: 900px) and (min-width:500px){
+    .container {
+        height: 400px;
+    }
+    .presentation {
+        padding: 100px;
+    }
+    .formation {
+        flex-direction: column;
+        align-items: center;
+    }
+    .for {
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+        margin: 10px;
+    }
+}
+@media (max-width: 600px){
+.for p{
+    font-size: 25px;
+    width:auto;
+}
+}

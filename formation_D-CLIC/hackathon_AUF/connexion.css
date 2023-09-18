@@ -1,0 +1,85 @@
+
+body{
+   background :url(./image/connexion.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    color: black;
+    text-align: center;
+    align-items:center;
+}
+
+
+.connexion{
+    background-color:rgba(255, 255, 255, 0.599);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    width:70%;
+    height: 400px;
+    margin: 0  20%;
+}
+h2{
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    
+}
+form{
+    margin-bottom:20px;
+}
+
+form input{
+    margin-top: 20px;
+    width:200px;
+    
+}
+.connecter{
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color:#00B0D8;
+    color:white;
+
+}
+
+.inscrire{
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color:#00B0D8;
+    color:white;
+    text-decoration:none;
+    margin-bottom: 15px;
+    font-size: 15px;
+    
+}
+.oubli{
+    color:black;
+    font-size:108%;
+    font-weight: 100;
+    margin-left:-90px;
+    text-decoration:none;
+    
+}
+.oubli:hover{
+    color: blue;
+}
+
+.retour{
+    background-color:#00B0D8;
+    border-radius:15px;
+    margin-top:30px;
+    margin-right:-150px;
+    
+}
+.retour a{
+    color:white;
+    font-size:15px;
+    padding:5px 10px;
+
+    text-decoration: none;
+    
+    
+    
+}
+ 

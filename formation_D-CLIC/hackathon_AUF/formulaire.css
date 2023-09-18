@@ -1,0 +1,65 @@
+
+body{
+
+    background :url(./image/connexion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     color: black;
+     text-align: center;
+     align-items:center;
+ }
+ 
+ 
+ .formulaire{
+
+     background-color:rgba(255, 255, 255, 0.599);
+     background-size:100%;
+     background-repeat:no-repeat;
+     width:70%;
+     height:550px;
+     margin: 0  20%;
+ }
+ .formulaire h1{
+     text-align: center; 
+     color:#fff;
+     
+ }
+  
+ .formulaire form input{
+     margin-top: 20px;
+     width:200px;
+     
+ }
+ .formulaire .soumettre{
+     width: 150px;
+     padding: 5px 15px;
+     border-radius: 20px;
+     background-color:#00B0D8;
+     color:white;
+     font-size: 100%;
+ 
+ }
+ .formulaire label{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: -1%;
+    margin-left: -10%;
+    font-size: 170%;
+ }
+ .formulaire input{
+    display:flex;
+    width: 40%;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 1%;
+ }
+ .formulaire select{
+    display:flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 40%;
+ }
+ 
+  
+  

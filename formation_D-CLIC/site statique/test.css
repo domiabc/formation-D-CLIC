@@ -1,0 +1,35 @@
+ .kk
+{
+    height:80%;
+    width: 30%;
+
+}
+.Ghana
+{
+    height:80%;
+    width: 30%;
+    border:10%;
+    border-color: rgb(33, 31, 31);
+  
+}
+.Mali
+{
+    
+    height:80%;
+    width: 30%;
+  
+}
+.Afrique du sud
+{
+    
+    height:80%;
+    width: 30%;
+  
+}
+.navigation ul
+{
+    display:flex;
+}
+body{
+    background-color: blue;
+}

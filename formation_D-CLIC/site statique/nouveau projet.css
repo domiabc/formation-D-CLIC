@@ -1,0 +1,146 @@
+
+header
+{
+    background:url(pyramide.jpg);
+    background-size:100%;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+body
+{
+    background-color: blanchedalmond;
+    width:100%;
+    background-size:100%;
+      
+
+    
+
+}
+
+
+
+h1
+{
+    text-align: center;
+    margin-top:-5%;
+    font-size:300%;
+    font-family:algerian;
+    font-style: italic;
+    color:whitesmoke;
+    font-optical-sizing: 5%;
+    width:100%;
+}
+.logo
+{
+    float: left;
+    width: 20%; 
+    height: 30%;
+    margin-top:1%;
+   border-radius:10%;
+   margin-left: 1%;
+}
+
+.idée
+{
+    margin-top:1%;
+    background:url(hotel.jpg) no-repeat ;
+    background-size:100%;
+    height: 100%;
+    width:100%;
+    margin-top:1%;
+    padding-bottom:1%;
+    font-size:200%;
+    text-align:center;
+    color:rgb(99, 99, 243,);
+    
+}
+.ide{
+    font-size:100%;
+    width:100%;
+    height:100%;
+    transition:2.5s;
+    padding:10%;
+}
+.ide:hover
+{
+     
+    font-size:100%;
+    padding:10%;
+    text-align:center;
+    color:rgb(99, 99, 243);
+    background-color:whitesmoke;
+
+}
+
+
+.vision
+{
+    background:url(africa.jpg) no-repeat;
+    background-size:100%;
+    height:100%;
+   
+    width:100%;
+    margin-top:1%;
+    font-size: 200%;
+    color:rgb(99, 99, 243,);
+}
+.visio
+{
+    height:100%;
+    transition:2.5s;
+    font-size:100%;
+    width:100%;
+    text-align:center;
+   padding-left:10%;
+   padding-right:10%;
+}
+
+.visio:hover
+{
+    height:100%;
+    width:100%;
+    font-size:100%;
+    color: rgb(99, 99, 243);
+    background-color:whitesmoke;
+}
+h2
+{
+    text-align:center;
+    margin-top:20%;
+    padding-bottom:2%;
+    font-size:200%;
+    color:whitesmoke;
+    background-color: rgb(70, 70, 233);
+    width:25%;
+    margin-left:35%;
+    padding-bottom:2%;
+    transition:1.5s;
+    margin-bottom:2%;
+}
+
+.visio:hover
+h2:hover
+{
+    font-family:algerian;
+    font-size:100%;
+    color:whitesmoke;
+    background-color:rgb(70, 70, 233);
+    cursor: pointer;
+}
+.visi
+{
+    margin-top:2%;
+}
+
+
+footer
+{
+    text-align:center;
+   
+    padding-bottom:1%;
+    font-size:100%;
+    color:whitesmoke;
+    background-color: rgb(70, 70, 233);
+ 
+}

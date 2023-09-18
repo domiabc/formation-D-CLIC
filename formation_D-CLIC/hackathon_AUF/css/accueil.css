@@ -1,0 +1,226 @@
+.clic{
+    background:url(../image/accueil1.jpg);
+    background-repeat: no-repeat;
+     background-size:cover;
+    height: 400px;
+    margin-top: 5%;
+   
+     
+}
+.animation-texte {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    align-items: center;
+   
+}
+.animation-texte h1{
+    margin-top: 8%;
+    margin-left: 3%;
+    font-size: 40px;
+}
+.animation-texte h2{
+    width: auto;
+    display: flex;
+    margin-top: 3%;
+     
+}
+
+
+.texte-dynamique {
+    display:flex;
+    font-size: 20px;
+}
+ 
+
+.texte-dynamique span {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    animation: afficher-et-disparaitre 11s infinite;
+}
+
+.texte-dynamique span:nth-child(1) {
+    animation-delay: 3s;
+    margin-top: 1%;
+    
+}
+
+.texte-dynamique span:nth-child(2) {
+    animation-delay: 7s;
+    margin-top: -1%;
+    
+     
+}
+
+.texte-dynamique span:nth-child(3) {
+    animation-delay: 10s;
+     
+     
+}
+
+@keyframes afficher-et-disparaitre {
+    0%, 20% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    25%, 100% {
+        opacity: 0;
+        transform: translateX(80%);
+    }
+}
+h1{
+    margin-left: 20%;
+}
+.presentation_Dclic{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    margin-top: 6%;
+}
+.presentation_Dclic img{
+    height:400px;
+    width: 600px;
+    margin-right: 2%;
+}
+.presentation_Dclic p{
+    font-size:20px ;
+    margin-right: 2%;
+    margin-top: 10%;
+}
+.presentation{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+}
+.presentation img{
+    height:300px;
+    width: 600px;
+    margin-right: 2%;
+}
+.presentation p{
+    font-size:20px ;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+.presentation_{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+}
+.presentation_ img{
+    height:300px;
+    width: 600px;
+    margin-right: 2%;
+}
+.presentation_ p{
+    font-size:20px ;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+@media (max-width:915px){
+
+    .clic{
+    height: 250px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .presentation{
+        height: 600px;
+        width: 100%;
+        display:block;
+        flex-direction: column;
+        margin-top: 1%;
+    }
+   
+    .presentation img{
+        height:250px;
+        width: 500px;
+        text-align: center;
+         
+    }
+    .presentation p{
+        font-size:15px ;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+    .presentation_Dclic{
+        height: 500px;
+        width: 100%;
+        display:block;
+        flex-direction: column;
+        margin-top: 1%;
+    }
+   
+    .presentation_Dclic img{
+        height:250px;
+        width: 500px;
+        text-align: center;
+         
+    }
+    .presentation_Dclic p{
+        font-size:15px ;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+    .presentation_{
+        height: 500px;
+        width: 100%;
+        display:block;
+        flex-direction: column;
+        margin-top: 1%;
+    }
+   
+    .presentation_ img{
+        height:250px;
+        width: 500px;
+        text-align: center;
+         
+    }
+    .presentation_ p{
+        font-size:15px ;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+     
+     
+     
+}
+
+
+@media (max-width:600px){
+    .clic{
+        height: 200px;
+        }
+        .animation-texte {
+            display: flex;
+            font-size: 10px;
+            font-weight: bold;
+            color:white;
+            align-items: center;
+            
+           
+        }
+        .animation-texte h1{
+            margin-top: 18%;
+            margin-left: 3%;
+            font-size: 20px;
+        }
+        .animation-texte h2{
+            width: auto;
+            display: flex;
+            margin-top: 13%;
+             
+        }
+        
+        
+        .texte-dynamique {
+            display:flex;
+            font-size: 10px;
+        }
+} 

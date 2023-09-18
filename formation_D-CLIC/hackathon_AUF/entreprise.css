@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    display: flex;
+    background-color: rgb(53, 171,226);
+  }
+  
+  .container{
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+  flex-wrap: wrap; /* Permet le passage à la ligne */
+  justify-content: space-between;
+    
+  }
+  
+  .profi{
+    background-color: white;
+    width:42%;
+    border: ridge  black 2px;
+    margin-left: 4%;
+    margin-right: 3%;
+    margin-top: 3%;
+    border-radius:15px;
+  }
+  .profil{
+  
+    display: flex;
+  width:auto;
+  height:210px;
+  }
+  .profil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding-left:2%;
+    padding-top:2%;
+  }
+  h1{
+  margin-top:50%;
+  margin-left:10%;
+  margin-left:10%;
+  font-size:100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  }
+  .des{
+  display: flex;
+  
+  }
+  .description p{
+   
+  width: 80%;
+  padding-left:5%;
+  }
+  .lien{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    margin-top: 1px;
+    margin-left:5%;
+    margin-right: -20%;
+  }
+  .lien button{
+    margin-top:5%;
+    width: 70%;
+    background-color: rgb(53, 171,226);
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 15px;
+    
+  }
+  .lien a {
+    color: white;
+    text-decoration: none;
+  }
+  .lien a:hover {
+    color:black;
+     
+  }

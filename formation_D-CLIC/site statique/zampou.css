@@ -1,0 +1,294 @@
+body{
+    background-color:honeydew;
+}
+/* header */
+*{
+    margin:0;
+    margin:0;
+    box-sizing: border-box
+}
+/* header */
+header{
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(30, 2, 56);
+    align-items:center;
+    padding:2%;
+
+}
+header nav{
+    margin-left:50%;
+    width:100%;
+ 
+
+}
+/* header h1{
+    color: rgb(158, 79, 231);
+    text-transform:uppercase;
+    padding-left: 4%;
+    font-size:300%;
+
+} */
+header nav a {
+    
+    font-size:150%;
+     color: rgb(255, 240, 240);
+    margin-right:2%;
+    transition:1s;
+    
+}
+
+header nav a:hover {
+    background-color: aliceblue;
+    
+    font-size:150%;
+    color: rgb(158, 79, 231);
+     border-radius: 10%;
+}
+.logo{
+    margin-right:-40%;
+    width:15%;
+   margin-left:6%;
+   clip-path:ellipse(60% 60%);
+    
+}
+.one
+{
+    background:url(hotel_simande.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    height:700px;
+    color: aliceblue;
+    font-family:Algerian;
+    font-size:150%;
+    
+}
+ 
+
+.text{
+
+    padding-left: 4%;
+    padding-left:4%;
+    padding-top:2%;
+    transition:2s;
+    margin-bottom:2%;
+}
+
+.text:hover{
+
+    padding-left: 4%;
+    padding-left:4%;
+    transition:2s;
+    color: black;
+    background-color: aliceblue;
+   /*  font-size: 200%; */
+}
+.one h2{
+     padding-top:20%;
+     text-align: center;
+}
+.one a {
+    margin-left:40%;
+     
+    color: black;
+    transition:1s;
+}
+.one a:hover{
+    margin-left:40%;
+    color: black;
+    font-size:110%;
+    background-color: white;
+    padding:1%;
+    border-radius:8%;
+}
+.two{
+    padding-left:1.5%;
+    margin-top:2%;
+     
+}
+.two h1{
+    text-align:center;
+    padding-bottom:2%;
+    font-size:200%;
+}
+.two img{
+    justify-content:space-around;
+    margin-right: 3px;
+    margin-left:3px;
+    width: 320px;
+    height: 320px;
+    margin-bottom:2%;
+   clip-path: ellipse(60% 60%);
+   animation:animer 5s linear ;
+ 
+}
+
+@keyframes animer{
+    0%{
+        transform:rotate(360deg) scale(0);
+    }
+    
+    50%{
+        transform:rotate(0deg) scale(1);
+    }
+    100%{
+        transform:rotate(0deg) scale(0);
+    }
+}
+ 
+.silmande{
+    font-size:120%;
+    margin-bottom:2%;
+}
+.reserver{
+    background-color: blue;
+    color: aliceblue;
+    
+    margin-left: 35%;
+    width: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:150%;
+    border-width:5px;
+    border-style:ridge;
+    border-color: rgb(37, 35, 35);
+}
+ /* section three */
+.three{
+    padding-left:1.5%;
+    margin-top:2%;
+     
+}
+.three h1{
+    text-align:center;
+    padding-bottom:2%;
+    font-size:200%;
+}
+.three img{
+    justify-content:space-around;
+    margin-right: 3px;
+    margin-left:3px;
+    width: 320px;
+    height: 320px;
+    margin-bottom:2%;
+   clip-path: ellipse(50% 60%);
+   animation:animer 5s linear ;
+ 
+}
+
+@keyframes animer{
+    0%{
+        transform:rotate(90deg) scale(0);
+    }
+    
+    50%{
+        transform:rotate(0deg ) scale(1);
+    }
+    100%{
+        transform:rotate(360deg) scale(0);
+    }
+}
+/* section four */
+.four{
+    padding-left:1.5%;
+    margin-top:2%;
+     
+}
+.four h1{
+    text-align:center;
+    padding-bottom:2%;
+    font-size:200%;
+}
+.four img{
+    justify-content:space-around;
+    margin-right: 3px;
+    margin-left:3px;
+    width: 320px;
+    height: 320px;
+    margin-bottom:2%;
+   clip-path: ellipse(50% 50%);
+   animation:animer 5s linear ;
+ 
+}
+
+@keyframes animer{
+    0%{
+        transform:rotate(deg) scale(0);
+    }
+    
+    50%{
+        transform:rotate(0deg ) scale(0);
+    }
+    100%{
+        transform:rotate(0deg) scale(0);
+    }
+}
+/* section five */
+.five{
+    padding-left:1.5%;
+    margin-top:2%;
+     
+}
+.five h1{
+    text-align:center;
+    padding-bottom:2%;
+    font-size:200%;
+}
+.five img{
+    justify-content:space-around;
+    margin-right: 3px;
+    margin-left:3px;
+    width: 320px;
+    height: 320px;
+    margin-bottom:2%;
+   clip-path: ellipse(40% 700%);
+   animation:animer 5s linear ;
+ 
+}
+
+@keyframes animer{
+    0%{
+        transform:rotate(90deg) scale(0);
+    }
+    
+    50%{
+        transform:rotate(0deg ) scale(1);
+    }
+    100%{
+        transform:rotate(360deg) scale(0);
+    }
+}
+/* section six */
+.six{
+    padding-left:1.5%;
+    margin-top:2%;
+     
+}
+.six h1{
+    text-align:center;
+    padding-bottom:2%;
+    font-size:200%;
+}
+.six img{
+    justify-content:space-around;
+    margin-right: 3px;
+    margin-left:3px;
+    width: 320px;
+    height: 320px;
+    margin-bottom:2%;
+   clip-path: ellipse(40% 700%);
+   animation:animer 5s linear ;
+ 
+}
+
+@keyframes animer{
+    0%{
+        transform:rotate(90deg) scale(0);
+    }
+    
+    50%{
+        transform:rotate(0deg ) scale(1);
+    }
+    100%{
+        transform:rotate(360deg) scale(0);
+    }
+}
